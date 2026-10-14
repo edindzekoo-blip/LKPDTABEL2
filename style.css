@@ -40,3 +40,12 @@ td.dipilih {
     color: white;
     font-weight: bold;
 }
+tbody tr {
+    cursor: pointer;
+}
+
+tbody tr.dipilih td {
+    background-color: #4caf50;
+    color: white;
+    transition: 0.3s;
+}
