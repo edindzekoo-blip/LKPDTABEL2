@@ -7,9 +7,9 @@
     <link rel="stylesheet" href="style.css">
 </head>
     <script>
-    document.querySelectorAll("td:first-child").forEach(function(nama) {
-        nama.addEventListener("click", function() {
-            this.classList.toggle("dipilih");
+    document.querySelectorAll("tbody tr").forEach(function(baris) {
+        baris.querySelector("td:first-child").addEventListener("click", function() {
+            baris.classList.toggle("dipilih");
         });
     });
     </script>
