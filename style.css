@@ -1,10 +1,12 @@
 body {
     font-family: "Times New Roman", serif;
     margin: 20px;
+    overflow-x: auto;
 }
 
 table {
     width: 100%;
+    min-width: 900px;
     border-collapse: collapse;
     font-size: 14px;
 }
@@ -12,14 +14,16 @@ table {
 th {
     background-color: #493b87;
     color: white;
-    padding: 7px;
+    padding: 12px 25px;
     border: 1px solid #b5b58b;
     text-align: center;
+    white-space: nowrap;
 }
 
 td {
     background-color: #fff0d0;
-    padding: 7px;
+    padding: 12px 25px;
     border: 1px solid #b5b58b;
     text-align: center;
+    white-space: nowrap;
 }
