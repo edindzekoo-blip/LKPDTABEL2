@@ -18,27 +18,6 @@ table {
     border-collapse: collapse;
     font-size: 14px;
 }
-
-th {
-    background-color: #493b87;
-    color: white;
-    padding: 12px 25px;
-    border: 1px solid #b5b58b;
-    text-align: center;
-    white-space: nowrap;
-}
-
-td {
-    background-color: #fff0d0;
-    padding: 12px 25px;
-    border: 1px solid #b5b58b;
-    text-align: center;
-    white-space: nowrap;
-}
-td.dipilih {
-    background-color: #4caf50;
-    color: white;
-    font-weight: bold;
 }
 tbody tr {
     cursor: pointer;
