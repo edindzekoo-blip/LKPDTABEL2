@@ -1,4 +1,12 @@
-body {
+td:first-child {
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+td:first-child:active {
+    background-color: #4caf50;
+    color: white;
+}body {
     font-family: "Times New Roman", serif;
     margin: 20px;
     overflow-x: auto;
@@ -26,4 +34,9 @@ td {
     border: 1px solid #b5b58b;
     text-align: center;
     white-space: nowrap;
+}
+td.dipilih {
+    background-color: #4caf50;
+    color: white;
+    font-weight: bold;
 }
