@@ -6,6 +6,13 @@
     <title>Tabel Data Siswa</title>
     <link rel="stylesheet" href="style.css">
 </head>
+    <script>
+    document.querySelectorAll("td:first-child").forEach(function(nama) {
+        nama.addEventListener("click", function() {
+            this.classList.toggle("dipilih");
+        });
+    });
+    </script>
 <body>
 
     <table>
